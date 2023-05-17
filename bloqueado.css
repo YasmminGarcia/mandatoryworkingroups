@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+html,body{
+    font-size: 62.5%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-rendering: optimizeLegibility;
+    height: 100%;
+   
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(189, 20, 20);
+    flex-direction: column;
+  
+}
+
+p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+    color: aliceblue;
+    background-color: rgb(19, 2, 2);
+    margin-top: 1rem;
+
+    width: 40rem;
+    height: 10rem;
+
+    border-radius: 2rem;
+    
+
+}
